@@ -28,6 +28,7 @@ class GetAllComments extends Component {
       })
       .catch(error => {
         console.log(error);
+        alert("Comment Not Saved! Verify your values, try to enter unique ID");
       });
   };
 
